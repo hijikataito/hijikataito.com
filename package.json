@@ -1,0 +1,33 @@
+{
+  "name": "hijikataito.github.io",
+  "version": "1.0.0",
+  "description": "🐱🐱🐱 hijikataito.com 🐱🐱🐱",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "",
+    "server": "php -S 127.0.0.1:8080",
+    "server:windows": "D:/xampp/php/php.exe -S 127.0.0.1:8080",
+    "watch:css": "node-sass -r -w ./src/sass -o ./css --output-style compressed",
+    "watch:pug": "pug ./src/pug --out . --watch --pretty --hierarchy",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hijikataito/hijikataito.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hijikataito/hijikataito.github.io/issues"
+  },
+  "homepage": "https://github.com/hijikataito/hijikataito.github.io#readme",
+  "dependencies": {
+    "bulma": "^0.7.1",
+    "node-sass": "^4.9.1",
+    "pug": "^2.0.3",
+    "pug-cli": "github:pugjs/pug-cli#master"
+  }
+}
