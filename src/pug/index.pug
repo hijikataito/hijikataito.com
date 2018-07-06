@@ -1,7 +1,13 @@
 extends _includes/_default
 
 block title
-  title Top Page
+  title hijikataito.com
 
 block content
-  h1 This is Content
+  .columns
+    .column
+      img.image(src="/img/bg.jpg")
+      
+    .column.is-4
+      // Twitter Timeline
+      <a class="twitter-timeline" data-lang="ja" data-tweet-limit="5" href="https://twitter.com/hijikataito?ref_src=twsrc%5Etfw">Tweets by hijikataito</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>

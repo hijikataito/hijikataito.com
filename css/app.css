@@ -1,1 +1,1 @@
-body{display:flex;min-height:100vh;flex-direction:column}main{flex:1}
+header{margin-top:2rem}header .navbar{margin:1rem 0}header .src{font-size:0.8rem;margin-left:1rem}body{display:flex;min-height:100vh;flex-direction:column}main{margin:2rem 0;flex:1}

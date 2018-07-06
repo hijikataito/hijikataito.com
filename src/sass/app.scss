@@ -1,8 +1,19 @@
+header {
+  margin-top: 2rem;
+  .navbar {
+    margin: 1rem 0;
+  }
+  .src {
+    font-size: 0.8rem;
+    margin-left: 1rem;
+  }
+}
 body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
 }
 main {
+  margin: 2rem 0;
   flex: 1;
 }
